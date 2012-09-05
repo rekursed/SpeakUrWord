@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF330066"
+    android:orientation="vertical" 
+    android:paddingBottom="5dp"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/speech_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/speech"
+        android:textStyle="bold"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:text="@string/word_intro"
+	    android:textStyle="italic" 
+	    />
+    <ListView
+        android:id="@+id/word_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/rec"
+        />
+    
+
+</LinearLayout>

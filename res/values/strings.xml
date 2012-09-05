@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="intro">Press the button to speak</string>
+    <string name="app_name">Speak Ur Word</string>
+    <string name="speech">Speak Now!</string>
+    <string name="word_intro">Suggested Words</string>
+
+</resources>
